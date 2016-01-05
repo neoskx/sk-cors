@@ -1,0 +1,14 @@
+{
+  "name": "sk-cors",
+  "description": "A nodejs server to handle cors request.",
+  "version": "0.1.0",
+  "dependencies": {
+    "koa": "^1.1.2",
+    "koa-router": "^5.3.0",
+    "koa-bodyparser": "^2.0.1",
+    "koa-cors": "^0.0.16",
+    "co-request": "^1.0.0",
+    "lodash": "^3.10.1",
+    "async": "^1.5.1"
+  }
+}
