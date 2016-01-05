@@ -91,6 +91,6 @@ app.on('error', function(err){
 });
 
 if (!module.parent) {
-  http.createServer(app.callback()).listen(3000);
+  http.createServer(app.callback()).listen( process.env.PORT || 3000);
   console.log("[Info]Server was started on http://localhost:3000");
 }
