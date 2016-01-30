@@ -35,7 +35,7 @@ app
     }
     this.state.targetURL = targetURL;
 		console.log('this.state.targetURL: ', this.state.targetURL);
-    this.assert(this.state.targetURL, 400, "You must pass a targetURL. You can pass it on query or data. For example: http://example.com?_target_=http://google.com");
+    this.assert(this.state.targetURL, 400, "You must pass a targetURL. You can pass it on query or data. For example: http://skcors.herokuapp.com?_target_=http://google.com");
     yield next;
   })
   .use(router.routes())
