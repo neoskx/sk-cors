@@ -1,7 +1,16 @@
 {
   "name": "sk-cors",
+  "license": "MIT",
   "description": "A nodejs server to handle cors request.",
   "version": "0.1.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shaoke/sk-cors.git"
+  },
+  "engines": {
+    "node": "<5",
+    "npm": "~2.5"
+  },
   "scripts": {
     "start": "node app.js"
   },
